@@ -1,0 +1,1 @@
+mpiifort -o test.X -g -check all -traceback zoltanRCB.F90 simpleRCB.F90 -I/opt/zoltan/3.81/include /opt/zoltan/3.81/lib64/libzoltan.a -L/opt/scotch/intel/6.0.4/lib -lptscotcherr -lptscotch -lscotch -lz  -L/opt/parmetis/intel/4.0.3/lib -lparmetis -lmetis
